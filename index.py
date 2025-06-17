@@ -7,9 +7,9 @@
 
 #Advanced concept - strings
 
-message = "Felicia"
+message = ' Felicia, Sithole '
 
-print(message[0])
-print(message[1])
-print(message[2])
-print(message[-1])
+
+print(message.strip()) #Remove leading and trailing whitespace
+print(message.lower()) #Convert all characters to lowercase
+print(message.split()) #Split the string into a list based on the coma
