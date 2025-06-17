@@ -20,10 +20,22 @@
 
 
 #Numeric Data - integer (class int) are whole numbers and floats (class float) are decimal numbers
-num = 3
+#num = 3
 
-print(type(num))
+#print(type(num))
 
-num2 = 3.14444
+#num2 = 3.14444
 
-print(type(num2))
+#print(type(num2))
+
+
+
+
+#Variable - is a symboling name or identifier used to store data or values in a computor
+my_variable = 10
+total_count = 0
+user = "John"
+
+#Invalid
+second_variable = 10
+user-name = 20
