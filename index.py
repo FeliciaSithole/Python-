@@ -61,7 +61,18 @@
 #print(5%2)
 #print(x**y)
 
-x = 10
-x -= 2
+#x = 10
+#x -= 2
 
-print(x)
+#print(x)
+
+
+
+
+
+#Operators with Strings
+str1 = 'Felicia'
+str2 = 'Sithole'
+
+print(str1 + ' ' + str2 + ' ' + str1)
+print(str1 * 8)
