@@ -32,10 +32,36 @@
 
 
 #Variable - is a symboling name or identifier used to store data or values in a computor
-my_variable = 10
-total_count = 0
-user = "John"
+#my_variable = 10
+#total_count = 0
+#user = "John"
 
 #Invalid
-second_variable = 10
-user-name = 20
+#second_variable = 10
+#user-name = 20
+
+
+
+#Operators on numeric data
+#Addition (+)
+#Subtraction (-)
+#Multiplication (*)
+#Division (/)
+#Modulus (%) - is a remainder after you divide
+#Exponent (**)
+
+#x = 10
+#y = 2
+
+#print(x+y)
+#print(x-y)
+#print(x*y)
+#print(x/y)
+#print(x%y)
+#print(5%2)
+#print(x**y)
+
+x = 10
+x -= 2
+
+print(x)
