@@ -71,8 +71,23 @@
 
 
 #Operators with Strings
-str1 = 'Felicia'
-str2 = 'Sithole'
+#str1 = 'Felicia'
+#str2 = 'Sithole'
 
-print(str1 + ' ' + str2 + ' ' + str1)
-print(str1 * 8)
+# print(str1 + ' ' + str2 + ' ' + str1)
+# print(str1 * 8)
+
+
+
+
+# Control Statement - are fundamental components of programming language that allow us to control the flow of execution based on certain conditions 
+# if, else if and else statemet
+
+num = 0
+
+if num > 0:
+    print("This number is positive")
+elif num == 0:
+    print("This number is zero")
+else:
+    print("This number is negative")
