@@ -112,7 +112,7 @@
 
 
 
-#Loops 
+#Loops (for loop and while loop)
 # fruits = ['apples', 'banana', 'cherry']
 
 # for fruit in fruits:
@@ -123,8 +123,42 @@
     # print(number)
     
 #Using a while loop to count from 1 to 5    
-count = 1
+# count = 1
 
-while count <= 5:
+# while count <= 5:
+    # print(count)
+    # count += 1 #Increments the count by 1
+    
+    
+    
+    
+#Loop Control Statements
+# fruits = ['apple', 'banana', 'cherry', 'date']
+
+# for fruit in fruits:
+    # if fruit == "cherry":
+        # break # Exits the loop if cherry is found
+    # print(fruit)
+    
+# print()
+
+# for fruit in fruits:
+    # if fruit == "cherry":
+        # continue # Skips the value in this condition is cherry and move to the iteraction which is date
+    # print(fruit)
+    
+# print()
+
+# for fruit in fruits:
+    # if fruit == "cherry":
+        # pass # Placeholder, no action is needed for cherry (in case you are changing the data or doing some transformation on the data we have or values we say that when it reach cherry do not do anything to it just leave it as it is)
+    # print(fruit)
+    
+    
+count = 0
+
+while count < 5:
     print(count)
-    count += 1 #Increments the count by 1
+    count += 1
+    if count == 3:
+        break # Exist the loop when the count is released - 3
