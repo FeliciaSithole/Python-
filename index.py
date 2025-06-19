@@ -97,12 +97,34 @@
     
     
 #Control Statements
-num1 = int(input("Enter the first number:"))
-num2 = int(input("Enter the second number:"))
+# num1 = int(input("Enter the first number:"))
+# num2 = int(input("Enter the second number:"))
 
-if num1 > num2: 
-    print(num1, "is greater than", num2)
-elif num2 > num1:
-    print(num2, "is greater than", num1)
-else:
-    print("Both numbers are equal")
+# if num1 > num2: 
+    # print(num1, "is greater than", num2)
+# elif num2 > num1:
+    # print(num2, "is greater than", num1)
+# else:
+    # print("Both numbers are equal")
+    
+    
+    
+
+
+
+#Loops 
+# fruits = ['apples', 'banana', 'cherry']
+
+# for fruit in fruits:
+    # print(fruit)
+    
+# numbers = ['1', '2', '3', '4', '7']
+# for number in numbers:
+    # print(number)
+    
+#Using a while loop to count from 1 to 5    
+count = 1
+
+while count <= 5:
+    print(count)
+    count += 1 #Increments the count by 1
